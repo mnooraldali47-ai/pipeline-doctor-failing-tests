@@ -7,7 +7,7 @@ def test_add_correct():
 
 def test_add_intentionally_wrong():
     # ABSICHTLICHER FEHLER: 1 + 1 = 2, nicht 3
-    assert add(1, 1) == 3
+    assert add(1, 1) == 2
 
 
 def test_multiply_correct():
@@ -16,4 +16,4 @@ def test_multiply_correct():
 
 def test_multiply_intentionally_wrong():
     # ABSICHTLICHER FEHLER: 2 * 5 = 10, nicht 99
-    assert multiply(2, 5) == 99
+    assert multiply(2, 5) == 10
